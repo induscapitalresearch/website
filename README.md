@@ -4,15 +4,14 @@
   <title>INDUS Capital Research LLC</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="description" content="INDUS Capital Research LLC is a multiple member-managed LLC with over 10 years of quantitative research, AI-driven trade risk management, and data analytics experience." />
-  <!-- Wide, modern sans serif for a Gmail-like aesthetic -->
-  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <!-- Grotesk body/UI: DM Sans. Display: Syne. -->
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Syne:wght@500;600;700&display=swap" rel="stylesheet" />
   <style>
     :root {
-      /* Tweaked to a slightly richer navy & teal to feel like a quant/fin logo */
-      --primary: #071326;
-      --accent: #0f9c9c;
-      --light: #f4f6fb;
-      --text: #111827;
+      --primary: #050816;
+      --accent: #00a3a3;
+      --light: #f5f7fb;
+      --text: #0b1020;
     }
     * {
       box-sizing: border-box;
@@ -20,14 +19,14 @@
       padding: 0;
     }
     body {
-      font-family: "Space Grotesk", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      font-family: "DM Sans", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
       color: var(--text);
-      background: #f8fafc;
+      background: #f3f4f6;
       line-height: 1.7;
       -webkit-font-smoothing: antialiased;
     }
     header {
-      background: radial-gradient(circle at top left, #10203d, #020712);
+      background: radial-gradient(circle at top left, #101827, #02040a);
       color: white;
       padding: 18px 7%;
       display: flex;
@@ -36,13 +35,13 @@
       position: sticky;
       top: 0;
       z-index: 20;
-      box-shadow: 0 14px 30px rgba(15, 23, 42, 0.3);
+      box-shadow: 0 14px 30px rgba(15, 23, 42, 0.35);
     }
     header .logo-text {
-      font-family: "Space Grotesk", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-      font-size: 1.4rem;
+      font-family: "Syne", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      font-size: 1.3rem;
       font-weight: 600;
-      letter-spacing: 0.26em;
+      letter-spacing: 0.22em;
       text-transform: uppercase;
     }
     header nav a {
@@ -62,7 +61,7 @@
     }
 
     .hero {
-      background: radial-gradient(circle at top left, #0b1530 0%, #050b18 45%, #020712 100%);
+      background: radial-gradient(circle at top left, #050816 0%, #020412 45%, #00010a 100%);
       color: white;
       padding: 80px 7% 70px;
       display: grid;
@@ -71,7 +70,7 @@
       align-items: center;
     }
     .hero h1 {
-      font-family: "Space Grotesk", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      font-family: "Syne", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
       font-size: 2.6rem;
       font-weight: 600;
       letter-spacing: 0.08em;
@@ -107,11 +106,11 @@
       text-transform: uppercase;
       letter-spacing: 0.18em;
       color: #e6f6ff;
-      background: rgba(15, 23, 42, 0.4);
+      background: rgba(15, 23, 42, 0.45);
     }
     .btn-primary {
       background: var(--accent);
-      color: #021015;
+      color: #001417;
       border-radius: 999px;
       padding: 11px 24px;
       font-size: 0.9rem;
@@ -120,16 +119,16 @@
       text-decoration: none;
       font-weight: 600;
       display: inline-block;
-      letter-spacing: 0.14em;
+      letter-spacing: 0.12em;
       text-transform: uppercase;
-      box-shadow: 0 10px 24px rgba(15, 118, 110, 0.45);
+      box-shadow: 0 10px 24px rgba(0, 163, 163, 0.45);
     }
     .btn-primary:hover {
-      opacity: 0.94;
+      opacity: 0.95;
       transform: translateY(-1px);
     }
     .hero-card {
-      background: rgba(9, 13, 30, 0.95);
+      background: rgba(4, 8, 26, 0.96);
       border-radius: 18px;
       border: 1px solid rgba(125, 179, 255, 0.35);
       padding: 20px 22px;
@@ -145,11 +144,13 @@
       margin-bottom: 10px;
       font-weight: 500;
     }
+    /* OS monospace stack for key figures/metrics */
     .hero-card .metric-row {
       display: flex;
       justify-content: space-between;
       margin-bottom: 8px;
       font-size: 0.88rem;
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "DejaVu Sans Mono", "Courier New", monospace;
     }
     .hero-card .metric-label {
       color: #91a4ff;
@@ -164,36 +165,38 @@
       margin-top: 8px;
       margin-right: 6px;
       padding: 4px 10px;
-      font-size: 0.74rem;
+      font-size: 0.72rem;
       border-radius: 999px;
       border: 1px solid rgba(159, 180, 255, 0.7);
       color: #e3ecff;
       background: rgba(15, 23, 42, 0.5);
       letter-spacing: 0.16em;
       text-transform: uppercase;
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "DejaVu Sans Mono", "Courier New", monospace;
     }
 
     section {
       padding: 60px 7%;
-      background: #f8fafc;
+      background: #f3f4f6;
     }
     section.alt {
       background: var(--light);
     }
     h2.section-title {
-      font-family: "Space Grotesk", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      font-family: "Syne", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
       font-size: 1.7rem;
       margin-bottom: 10px;
       letter-spacing: 0.14em;
       text-transform: uppercase;
       font-weight: 600;
-      color: #071326;
+      color: #050816;
     }
     .section-subtitle {
       color: #64748b;
       margin-bottom: 28px;
       font-size: 0.96rem;
       max-width: 720px;
+      font-family: "DM Sans", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
     }
 
     .grid-2 {
@@ -221,11 +224,13 @@
       font-weight: 600;
       color: #0f172a;
       letter-spacing: 0.04em;
+      font-family: "Syne", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
     }
     .card p {
       font-size: 0.94rem;
       color: #4b5563;
       font-weight: 400;
+      font-family: "DM Sans", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
     }
 
     .service-badge {
@@ -236,6 +241,7 @@
       color: #0b1f33;
       margin-bottom: 6px;
       font-weight: 500;
+      font-family: "DM Sans", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
     }
     .service-tech {
       font-size: 0.8rem;
@@ -247,6 +253,7 @@
       margin: 8px 0 0 18px;
       font-size: 0.9rem;
       color: #4b5563;
+      font-family: "DM Sans", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
     }
 
     .pill-row {
@@ -264,6 +271,7 @@
       border: 1px solid rgba(148, 163, 184, 0.4);
       letter-spacing: 0.16em;
       text-transform: uppercase;
+      font-family: "DM Sans", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
     }
     .info-row {
       display: flex;
@@ -275,6 +283,7 @@
     .info-item span.label {
       font-weight: 600;
       color: #020617;
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "DejaVu Sans Mono", "Courier New", monospace;
     }
 
     footer {
