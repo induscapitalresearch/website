@@ -363,7 +363,6 @@
       <h1>AI‑Driven Capital & Risk Intelligence</h1>
       <p>
         INDUS Capital Research LLC was born in San Diego in 2007 and is now a multiple member‑managed limited liability company with more than a decade of experience in quantitative research, program and risk management, and data analytics for trade risk management. Our principal office is located in Sheridan, Wyoming.
-</p>
       </p>
       <div class="tags">
         <span class="tag">Program &amp; Risk Management</span>
