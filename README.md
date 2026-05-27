@@ -548,7 +548,7 @@
         <h3>Contact Details</h3>
         <p>
           Email: <em>investor.indus@gmail.com</em> <br />
-          Web: <em>(https://induscapitalresearch.github.io/website/)</em> 
+          Web: <em>https://induscapitalresearch.github.io/website/</em> 
         </p>
         <p style="margin-top:10px; font-size:0.86rem; color:#6b7280;">
           INDUS Capital Research LLC provides research and risk analytics services and does not represent investment, legal, or tax advice. Any strategies or models discussed should be evaluated in the context of your own risk policies and regulatory obligations.
