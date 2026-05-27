@@ -143,14 +143,15 @@
       color: #a9c2ff;
       margin-bottom: 10px;
       font-weight: 500;
+      font-family: "DM Sans", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
     }
-    /* OS monospace stack for key figures/metrics */
+    /* Core focus area metrics now DM Sans (no monospace) */
     .hero-card .metric-row {
       display: flex;
       justify-content: space-between;
       margin-bottom: 8px;
       font-size: 0.88rem;
-      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "DejaVu Sans Mono", "Courier New", monospace;
+      font-family: "DM Sans", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
     }
     .hero-card .metric-label {
       color: #91a4ff;
@@ -172,7 +173,7 @@
       background: rgba(15, 23, 42, 0.5);
       letter-spacing: 0.16em;
       text-transform: uppercase;
-      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "DejaVu Sans Mono", "Courier New", monospace;
+      font-family: "DM Sans", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
     }
 
     section {
@@ -283,7 +284,7 @@
     .info-item span.label {
       font-weight: 600;
       color: #020617;
-      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "DejaVu Sans Mono", "Courier New", monospace;
+      font-family: "DM Sans", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
     }
 
     footer {
