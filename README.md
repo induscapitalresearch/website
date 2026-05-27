@@ -64,7 +64,7 @@
     .hero {
       background: radial-gradient(circle at top left, #050816 0%, #020412 45%, #00010a 100%);
       color: white;
-      padding: 80px 7% 70px;
+      padding: 96px 7% 88px;
       display: grid;
       grid-template-columns: minmax(0, 3fr) minmax(0, 2fr);
       gap: 40px;
@@ -132,7 +132,7 @@
       background: rgba(4, 8, 26, 0.96);
       border-radius: 18px;
       border: 1px solid rgba(125, 179, 255, 0.35);
-      padding: 20px 22px;
+      padding: 22px 24px;
       color: #d7e2ff;
       box-shadow: 0 22px 50px rgba(0, 0, 0, 0.7);
       backdrop-filter: blur(4px);
@@ -177,7 +177,7 @@
     }
 
     section {
-      padding: 60px 7%;
+      padding: 80px 7%;
       background: #f3f4f6;
     }
     section.alt {
@@ -194,7 +194,7 @@
     }
     .section-subtitle {
       color: #64748b;
-      margin-bottom: 28px;
+      margin-bottom: 32px;
       font-size: 0.96rem;
       max-width: 720px;
       font-family: "DM Sans", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
@@ -203,19 +203,19 @@
     .grid-2 {
       display: grid;
       grid-template-columns: repeat(2, minmax(0,1fr));
-      gap: 32px;
+      gap: 36px;
     }
     .services-grid {
       display: grid;
       grid-template-columns: repeat(3, minmax(0,1fr));
-      gap: 24px;
-      margin-top: 10px;
+      gap: 28px;
+      margin-top: 16px;
     }
 
     .card {
       background: #ffffff;
       border-radius: 16px;
-      padding: 20px 22px;
+      padding: 22px 24px;
       box-shadow: 0 12px 28px rgba(15, 23, 42, 0.08);
       border: 1px solid rgba(148, 163, 184, 0.3);
     }
@@ -290,9 +290,9 @@
     footer {
       background: #020617;
       color: #94a3b8;
-      padding: 18px 7% 22px;
+      padding: 22px 7% 26px;
       font-size: 0.82rem;
-      margin-top: 30px;
+      margin-top: 40px;
       border-top: 1px solid rgba(148, 163, 184, 0.35);
     }
     footer a {
@@ -306,6 +306,7 @@
     @media (max-width: 960px) {
       .hero {
         grid-template-columns: 1fr;
+        padding: 80px 7% 72px;
       }
       .grid-2 {
         grid-template-columns: 1fr;
@@ -326,6 +327,9 @@
       }
       .services-grid {
         grid-template-columns: 1fr;
+      }
+      section {
+        padding: 64px 7%;
       }
     }
   </style>
