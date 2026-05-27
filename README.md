@@ -4,11 +4,11 @@
   <title>INDUS Capital Research LLC</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="description" content="INDUS Capital Research LLC is a multiple member-managed LLC with over 10 years of quantitative research, AI-driven trade risk management, and data analytics experience." />
-  <!-- Elegant, professional font pairing -->
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <!-- Wide, modern sans serif for a Gmail-like aesthetic -->
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
   <style>
     :root {
-      /* Slightly richer deep navy and a refined teal to echo the logo */
+      /* Tweaked to a slightly richer navy & teal to feel like a quant/fin logo */
       --primary: #071326;
       --accent: #0f9c9c;
       --light: #f4f6fb;
@@ -20,7 +20,7 @@
       padding: 0;
     }
     body {
-      font-family: "Inter", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      font-family: "Space Grotesk", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
       color: var(--text);
       background: #f8fafc;
       line-height: 1.7;
@@ -39,19 +39,19 @@
       box-shadow: 0 14px 30px rgba(15, 23, 42, 0.3);
     }
     header .logo-text {
-      font-family: "Playfair Display", "Times New Roman", serif;
-      font-size: 1.2rem;
+      font-family: "Space Grotesk", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      font-size: 1.4rem;
       font-weight: 600;
-      letter-spacing: 0.16em;
+      letter-spacing: 0.26em;
       text-transform: uppercase;
     }
     header nav a {
       color: #e2ebff;
       margin-left: 20px;
       text-decoration: none;
-      font-size: 0.95rem;
-      font-weight: 400;
-      letter-spacing: 0.06em;
+      font-size: 0.9rem;
+      font-weight: 500;
+      letter-spacing: 0.12em;
       text-transform: uppercase;
     }
     header nav a:hover {
@@ -71,18 +71,19 @@
       align-items: center;
     }
     .hero h1 {
-      font-family: "Playfair Display", "Times New Roman", serif;
-      font-size: 2.7rem;
+      font-family: "Space Grotesk", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      font-size: 2.6rem;
       font-weight: 600;
-      letter-spacing: 0.04em;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
       margin-bottom: 10px;
     }
     .hero h2 {
-      font-size: 0.95rem;
+      font-size: 0.9rem;
       font-weight: 500;
       color: #a7b8ff;
       text-transform: uppercase;
-      letter-spacing: 0.22em;
+      letter-spacing: 0.26em;
       margin-bottom: 18px;
     }
     .hero p {
@@ -90,7 +91,7 @@
       color: #d2ddff;
       margin-bottom: 20px;
       font-size: 0.98rem;
-      font-weight: 300;
+      font-weight: 400;
     }
     .hero .tags {
       display: flex;
@@ -102,9 +103,9 @@
       border-radius: 999px;
       border: 1px solid rgba(226, 232, 255, 0.3);
       padding: 6px 12px;
-      font-size: 0.78rem;
+      font-size: 0.75rem;
       text-transform: uppercase;
-      letter-spacing: 0.16em;
+      letter-spacing: 0.18em;
       color: #e6f6ff;
       background: rgba(15, 23, 42, 0.4);
     }
@@ -113,13 +114,13 @@
       color: #021015;
       border-radius: 999px;
       padding: 11px 24px;
-      font-size: 0.95rem;
+      font-size: 0.9rem;
       border: none;
       cursor: pointer;
       text-decoration: none;
       font-weight: 600;
       display: inline-block;
-      letter-spacing: 0.08em;
+      letter-spacing: 0.14em;
       text-transform: uppercase;
       box-shadow: 0 10px 24px rgba(15, 118, 110, 0.45);
     }
@@ -137,9 +138,9 @@
       backdrop-filter: blur(4px);
     }
     .hero-card h3 {
-      font-size: 0.82rem;
+      font-size: 0.8rem;
       text-transform: uppercase;
-      letter-spacing: 0.2em;
+      letter-spacing: 0.24em;
       color: #a9c2ff;
       margin-bottom: 10px;
       font-weight: 500;
@@ -148,7 +149,7 @@
       display: flex;
       justify-content: space-between;
       margin-bottom: 8px;
-      font-size: 0.9rem;
+      font-size: 0.88rem;
     }
     .hero-card .metric-label {
       color: #91a4ff;
@@ -163,11 +164,13 @@
       margin-top: 8px;
       margin-right: 6px;
       padding: 4px 10px;
-      font-size: 0.75rem;
+      font-size: 0.74rem;
       border-radius: 999px;
       border: 1px solid rgba(159, 180, 255, 0.7);
       color: #e3ecff;
       background: rgba(15, 23, 42, 0.5);
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
     }
 
     section {
@@ -178,17 +181,18 @@
       background: var(--light);
     }
     h2.section-title {
-      font-family: "Playfair Display", "Times New Roman", serif;
-      font-size: 1.9rem;
+      font-family: "Space Grotesk", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      font-size: 1.7rem;
       margin-bottom: 10px;
-      letter-spacing: 0.04em;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
       font-weight: 600;
       color: #071326;
     }
     .section-subtitle {
       color: #64748b;
       margin-bottom: 28px;
-      font-size: 0.98rem;
+      font-size: 0.96rem;
       max-width: 720px;
     }
 
@@ -212,10 +216,11 @@
       border: 1px solid rgba(148, 163, 184, 0.3);
     }
     .card h3 {
-      font-size: 1.02rem;
+      font-size: 1rem;
       margin-bottom: 6px;
       font-weight: 600;
       color: #0f172a;
+      letter-spacing: 0.04em;
     }
     .card p {
       font-size: 0.94rem;
@@ -225,9 +230,9 @@
 
     .service-badge {
       display: inline-block;
-      font-size: 0.75rem;
+      font-size: 0.72rem;
       text-transform: uppercase;
-      letter-spacing: 0.18em;
+      letter-spacing: 0.2em;
       color: #0b1f33;
       margin-bottom: 6px;
       font-weight: 500;
@@ -240,7 +245,7 @@
     }
     ul {
       margin: 8px 0 0 18px;
-      font-size: 0.92rem;
+      font-size: 0.9rem;
       color: #4b5563;
     }
 
@@ -251,20 +256,20 @@
       margin-bottom: 16px;
     }
     .pill-small {
-      font-size: 0.75rem;
+      font-size: 0.74rem;
       padding: 4px 10px;
       border-radius: 999px;
       background: rgba(15, 118, 110, 0.06);
       color: #0b1f33;
       border: 1px solid rgba(148, 163, 184, 0.4);
-      letter-spacing: 0.12em;
+      letter-spacing: 0.16em;
       text-transform: uppercase;
     }
     .info-row {
       display: flex;
       flex-wrap: wrap;
       gap: 20px;
-      font-size: 0.9rem;
+      font-size: 0.88rem;
       color: #4b5563;
     }
     .info-item span.label {
@@ -276,7 +281,7 @@
       background: #020617;
       color: #94a3b8;
       padding: 18px 7% 22px;
-      font-size: 0.85rem;
+      font-size: 0.82rem;
       margin-top: 30px;
       border-top: 1px solid rgba(148, 163, 184, 0.35);
     }
@@ -316,294 +321,293 @@
   </style>
 </head>
 <body>
-  <!-- everything below stays exactly the same as you provided -->
-  <header>
-    <div class="logo-text">INDUS Capital Research LLC</div>
-    <nav>
-      <a href="#home">Home</a>
-      <a href="#services">Services</a>
-      <a href="#research">Research</a>
-      <a href="#about">About</a>
-      <a href="#contact">Contact</a>
-    </nav>
-  </header>
+<header>
+  <div class="logo-text">INDUS Capital Research LLC</div>
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#services">Services</a>
+    <a href="#research">Research</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
 
-  <main>
-    <!-- HOME / HERO -->
-    <section id="home" class="hero">
-      <div>
-        <h2>Established Quantitative Research & Risk</h2>
-        <h1>AI‑Driven Capital & Risk Intelligence</h1>
+<main>
+  <!-- HOME / HERO -->
+  <section id="home" class="hero">
+    <div>
+      <h2>Established Quantitative Research & Risk</h2>
+      <h1>AI‑Driven Capital & Risk Intelligence</h1>
+      <p>
+        INDUS Capital Research LLC is a Wyoming‑formed, multiple member‑managed limited liability company with more than a decade of experience in quantitative research, program and risk management, and data analytics for trade risk management.
+      </p>
+      <div class="tags">
+        <span class="tag">Program &amp; Risk Management</span>
+        <span class="tag">AI Expert Advisors</span>
+        <span class="tag">Python &amp; Quant Models</span>
+        <span class="tag">Data Discovery &amp; Visualization</span>
+      </div>
+      <a class="btn-primary" href="#services">Explore Services</a>
+    </div>
+    <div class="hero-card">
+      <h3>Core Focus Areas</h3>
+      <div class="metric-row">
+        <span class="metric-label">Experience</span>
+        <span class="metric-value">10+ Years</span>
+      </div>
+      <div class="metric-row">
+        <span class="metric-label">Programs &amp; Risk</span>
+        <span class="metric-value">Quantitative &amp; AI‑Driven</span>
+      </div>
+      <div class="metric-row">
+        <span class="metric-label">Analytics</span>
+        <span class="metric-value">Signals from Complex Data</span>
+      </div>
+      <div class="metric-row">
+        <span class="metric-label">Automation</span>
+        <span class="metric-value">Monitoring &amp; Backtesting</span>
+      </div>
+      <div class="metric-row">
+        <span class="metric-label">Structure</span>
+        <span class="metric-value">Multi‑Member Managed LLC</span>
+      </div>
+      <div class="metric-row">
+        <span class="metric-label">Principal Office</span>
+        <span class="metric-value">Sheridan, WY</span>
+      </div>
+      <span class="pill">SciPy</span>
+      <span class="pill">scikit‑learn</span>
+      <span class="pill">Python / Perl</span>
+      <span class="pill">Supervised Learning</span>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section id="services">
+    <h2 class="section-title">Services & Capabilities</h2>
+    <p class="section-subtitle">
+      INDUS designs and implements analytical programs, AI Expert Advisors, and data analytics frameworks tuned for real‑world trade and risk environments. 
+    </p>
+
+    <div class="services-grid">
+      <div class="card">
+        <div class="service-badge">Program & Risk Management</div>
+        <h3>Analytical Modeling & Automation</h3>
         <p>
-          INDUS Capital Research LLC is a Wyoming‑formed, multiple member‑managed limited liability company with more than a decade of experience in quantitative research, program and risk management, and data analytics for trade risk management.
+          Design and management of quantitative programs that integrate analytical modeling, automated decision logic, and risk controls across the full trade lifecycle.
         </p>
-        <div class="tags">
-          <span class="tag">Program &amp; Risk Management</span>
-          <span class="tag">AI Expert Advisors</span>
-          <span class="tag">Python &amp; Quant Models</span>
-          <span class="tag">Data Discovery &amp; Visualization</span>
+        <ul>
+          <li>Program design for risk‑aware execution</li>
+          <li>Software components for trading workflows</li>
+          <li>Governance and monitoring frameworks</li>
+        </ul>
+        <div class="service-tech">
+          Tech: Python, automation frameworks, event‑driven architectures. 
         </div>
-        <a class="btn-primary" href="#services">Explore Services</a>
       </div>
-      <div class="hero-card">
-        <h3>Core Focus Areas</h3>
-        <div class="metric-row">
-          <span class="metric-label">Experience</span>
-          <span class="metric-value">10+ Years</span>
+
+      <div class="card">
+        <div class="service-badge">AI Expert Advisors</div>
+        <h3>Supervised Learning for Markets</h3>
+        <p>
+          Automated “AI Expert Advisors” using supervised learning models for clustering, classification, and regression tailored to market and risk signals.
+        </p>
+        <ul>
+          <li>Feature engineering for trade and risk data</li>
+          <li>Model development & calibration using SciPy and scikit‑learn</li>
+          <li>Signal validation and robustness checks</li>
+        </ul>
+        <div class="service-tech">
+          Tech: Python ML stack (SciPy, scikit‑learn, related libraries). 
         </div>
-        <div class="metric-row">
-          <span class="metric-label">Programs &amp; Risk</span>
-          <span class="metric-value">Quantitative &amp; AI‑Driven</span>
-        </div>
-        <div class="metric-row">
-          <span class="metric-label">Analytics</span>
-          <span class="metric-value">Signals from Complex Data</span>
-        </div>
-        <div class="metric-row">
-          <span class="metric-label">Automation</span>
-          <span class="metric-value">Monitoring &amp; Backtesting</span>
-        </div>
-        <div class="metric-row">
-          <span class="metric-label">Structure</span>
-          <span class="metric-value">Multi‑Member Managed LLC</span>
-        </div>
-        <div class="metric-row">
-          <span class="metric-label">Principal Office</span>
-          <span class="metric-value">Sheridan, WY</span>
-        </div>
-        <span class="pill">SciPy</span>
-        <span class="pill">scikit‑learn</span>
-        <span class="pill">Python / Perl</span>
-        <span class="pill">Supervised Learning</span>
       </div>
-    </section>
 
-    <!-- SERVICES -->
-    <section id="services">
-      <h2 class="section-title">Services & Capabilities</h2>
-      <p class="section-subtitle">
-        INDUS designs and implements analytical programs, AI Expert Advisors, and data analytics frameworks tuned for real‑world trade and risk environments. 
-      </p>
+      <div class="card">
+        <div class="service-badge">Valuation & Backtesting</div>
+        <h3>Python/Perl Risk Models</h3>
+        <p>
+          Python‑ and Perl‑based valuation and risk models with systematic backtesting pipelines to assess performance, drawdowns, and scenario behavior over time.
+        </p>
+        <ul>
+          <li>Strategy backtesting and benchmarking</li>
+          <li>Scenario and sensitivity analyses</li>
+          <li>Custom valuation model development</li>
+        </ul>
+        <div class="service-tech">
+          Tech: Python, Perl, historical and synthetic data engines. 
+        </div>
+      </div>
+    </div>
 
-      <div class="services-grid">
-        <div class="card">
-          <div class="service-badge">Program & Risk Management</div>
-          <h3>Analytical Modeling & Automation</h3>
-          <p>
-            Design and management of quantitative programs that integrate analytical modeling, automated decision logic, and risk controls across the full trade lifecycle.
-          </p>
-          <ul>
-            <li>Program design for risk‑aware execution</li>
-            <li>Software components for trading workflows</li>
-            <li>Governance and monitoring frameworks</li>
-          </ul>
-          <div class="service-tech">
-            Tech: Python, automation frameworks, event‑driven architectures. 
+    <div style="margin-top:40px;" class="grid-2">
+      <div class="card">
+        <div class="service-badge">Automation & Monitoring</div>
+        <h3>Unusual Activity Detection</h3>
+        <p>
+          An automation framework for monitoring unusual activity, surfacing anomalies in positions, flows, or risk metrics before they become material issues.
+        </p>
+        <ul>
+          <li>Real‑time rules and anomaly detection</li>
+          <li>Alerting and escalation workflows</li>
+          <li>Dashboards for risk oversight</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <div class="service-badge">Data Analytics</div>
+        <h3>Data Discovery & Visualization</h3>
+        <p>
+          Data analytics, discovery, and visualization in Python to uncover patterns and trends that may not be immediately evident through conventional reporting.
+        </p>
+        <ul>
+          <li>Exploratory data analysis for complex datasets</li>
+          <li>Visual narratives that connect metrics to decisions</li>
+          <li>Dashboards that highlight key drivers and anomalies</li>
+        </ul>
+        <div class="service-tech">
+          Tech: Python visualization libraries and analytics tooling. 
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- RESEARCH -->
+  <section id="research" class="alt">
+    <h2 class="section-title">Research Heritage</h2>
+    <p class="section-subtitle">
+      INDUS builds on more than 10 years of work in quantitative modeling, supervised learning, and risk‑focused data analytics. 
+    </p>
+
+    <div class="grid-2">
+      <div>
+        <p>
+          Research begins with clear questions about decisions, risk, and signals. Data is organized, cleaned, and structured for supervised learning or analytical modeling workflows, ensuring that experiments rest on stable foundations. 
+        </p>
+        <p style="margin-top:10px;">
+          Models are evaluated not only on raw performance metrics but also on robustness, interpretability, and behavior under stress scenarios, so research outputs can be responsibly embedded into real systems. 
+        </p>
+      </div>
+      <div class="card">
+        <h3>Research Pillars</h3>
+        <ul>
+          <li>Supervised learning for clustering, classification, and regression</li>
+          <li>Python‑based analysis using SciPy, scikit‑learn, and related libraries</li>
+          <li>Backtesting frameworks for strategy and model evaluation</li>
+          <li>Data visualization to make complex behaviors legible</li>
+          <li>Continuous refinement as new data and conditions emerge</li>
+        </ul>
+      </div>
+    </div>
+
+    <div style="margin-top:32px;" class="grid-2">
+      <div class="card">
+        <h3>From Experiments to Programs</h3>
+        <p>
+          Results are translated into documented rules, monitoring thresholds, and change‑management processes so that research artifacts become durable components within program and risk frameworks. 
+        </p>
+      </div>
+      <div class="card">
+        <h3>Documentation & Governance</h3>
+        <p>
+          Clear records of data sources, assumptions, model choices, and limitations support governance and auditability for stakeholders who rely on the outputs.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <h2 class="section-title">The Firm</h2>
+    <p class="section-subtitle">
+      INDUS is structured as a multiple member‑managed limited liability company, combining technical, analytical, and operational perspectives in shared decision‑making. 
+    </p>
+
+    <div class="grid-2">
+      <div>
+        <div class="pill-row">
+          <span class="pill-small">Multiple Member‑Managed LLC</span>
+          <span class="pill-small">Quant &amp; AI‑Native</span>
+          <span class="pill-small">Program‑First Approach</span>
+        </div>
+        <p>
+          As a multi‑member LLC, INDUS brings together engineering, analytics, business, and operational experience within a single governance framework, rather than separating decision‑making from day‑to‑day work. 
+        </p>
+        <p style="margin-top:10px;">
+          This structure supports continuity over time: programs, models, and analytics platforms are developed with long‑term stewardship in mind, not short‑term experiments. 
+        </p>
+      </div>
+      <div class="card">
+        <h3>Firm Snapshot</h3>
+        <div class="info-row">
+          <div class="info-item">
+            <span class="label">Entity Type:&nbsp;</span>Multiple member‑managed limited liability company (LLC)
           </div>
-        </div>
-
-        <div class="card">
-          <div class="service-badge">AI Expert Advisors</div>
-          <h3>Supervised Learning for Markets</h3>
-          <p>
-            Automated “AI Expert Advisors” using supervised learning models for clustering, classification, and regression tailored to market and risk signals.
-          </p>
-          <ul>
-            <li>Feature engineering for trade and risk data</li>
-            <li>Model development & calibration using SciPy and scikit‑learn</li>
-            <li>Signal validation and robustness checks</li>
-          </ul>
-          <div class="service-tech">
-            Tech: Python ML stack (SciPy, scikit‑learn, related libraries). 
+          <div class="info-item">
+            <span class="label">Experience:&nbsp;</span>10+ years in research‑driven quantitative and data analytics work
           </div>
-        </div>
-
-        <div class="card">
-          <div class="service-badge">Valuation & Backtesting</div>
-          <h3>Python/Perl Risk Models</h3>
-          <p>
-            Python‑ and Perl‑based valuation and risk models with systematic backtesting pipelines to assess performance, drawdowns, and scenario behavior over time.
-          </p>
-          <ul>
-            <li>Strategy backtesting and benchmarking</li>
-            <li>Scenario and sensitivity analyses</li>
-            <li>Custom valuation model development</li>
-          </ul>
-          <div class="service-tech">
-            Tech: Python, Perl, historical and synthetic data engines. 
-          </div>
-        </div>
-      </div>
-
-      <div style="margin-top:40px;" class="grid-2">
-        <div class="card">
-          <div class="service-badge">Automation & Monitoring</div>
-          <h3>Unusual Activity Detection</h3>
-          <p>
-            An automation framework for monitoring unusual activity, surfacing anomalies in positions, flows, or risk metrics before they become material issues.
-          </p>
-          <ul>
-            <li>Real‑time rules and anomaly detection</li>
-            <li>Alerting and escalation workflows</li>
-            <li>Dashboards for risk oversight</li>
-          </ul>
-        </div>
-
-        <div class="card">
-          <div class="service-badge">Data Analytics</div>
-          <h3>Data Discovery & Visualization</h3>
-          <p>
-            Data analytics, discovery, and visualization in Python to uncover patterns and trends that may not be immediately evident through conventional reporting.
-          </p>
-          <ul>
-            <li>Exploratory data analysis for complex datasets</li>
-            <li>Visual narratives that connect metrics to decisions</li>
-            <li>Dashboards that highlight key drivers and anomalies</li>
-          </ul>
-          <div class="service-tech">
-            Tech: Python visualization libraries and analytics tooling. 
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- RESEARCH -->
-    <section id="research" class="alt">
-      <h2 class="section-title">Research Heritage</h2>
-      <p class="section-subtitle">
-        INDUS builds on more than 10 years of work in quantitative modeling, supervised learning, and risk‑focused data analytics. 
-      </p>
-
-      <div class="grid-2">
-        <div>
-          <p>
-            Research begins with clear questions about decisions, risk, and signals. Data is organized, cleaned, and structured for supervised learning or analytical modeling workflows, ensuring that experiments rest on stable foundations. 
-          </p>
-          <p style="margin-top:10px;">
-            Models are evaluated not only on raw performance metrics but also on robustness, interpretability, and behavior under stress scenarios, so research outputs can be responsibly embedded into real systems. 
-          </p>
-        </div>
-        <div class="card">
-          <h3>Research Pillars</h3>
-          <ul>
-            <li>Supervised learning for clustering, classification, and regression</li>
-            <li>Python‑based analysis using SciPy, scikit‑learn, and related libraries</li>
-            <li>Backtesting frameworks for strategy and model evaluation</li>
-            <li>Data visualization to make complex behaviors legible</li>
-            <li>Continuous refinement as new data and conditions emerge</li>
-          </ul>
-        </div>
-      </div>
-
-      <div style="margin-top:32px;" class="grid-2">
-        <div class="card">
-          <h3>From Experiments to Programs</h3>
-          <p>
-            Results are translated into documented rules, monitoring thresholds, and change‑management processes so that research artifacts become durable components within program and risk frameworks. 
-          </p>
-        </div>
-        <div class="card">
-          <h3>Documentation & Governance</h3>
-          <p>
-            Clear records of data sources, assumptions, model choices, and limitations support governance and auditability for stakeholders who rely on the outputs.
-          </p>
-        </div>
-      </div>
-    </section>
-
-    <!-- ABOUT -->
-    <section id="about">
-      <h2 class="section-title">The Firm</h2>
-      <p class="section-subtitle">
-        INDUS is structured as a multiple member‑managed limited liability company, combining technical, analytical, and operational perspectives in shared decision‑making. 
-      </p>
-
-      <div class="grid-2">
-        <div>
-          <div class="pill-row">
-            <span class="pill-small">Multiple Member‑Managed LLC</span>
-            <span class="pill-small">Quant &amp; AI‑Native</span>
-            <span class="pill-small">Program‑First Approach</span>
-          </div>
-          <p>
-            As a multi‑member LLC, INDUS brings together engineering, analytics, business, and operational experience within a single governance framework, rather than separating decision‑making from day‑to‑day work. 
-          </p>
-          <p style="margin-top:10px;">
-            This structure supports continuity over time: programs, models, and analytics platforms are developed with long‑term stewardship in mind, not short‑term experiments. 
-          </p>
-        </div>
-        <div class="card">
-          <h3>Firm Snapshot</h3>
-          <div class="info-row">
-            <div class="info-item">
-              <span class="label">Entity Type:&nbsp;</span>Multiple member‑managed limited liability company (LLC)
-            </div>
-            <div class="info-item">
-              <span class="label">Experience:&nbsp;</span>10+ years in research‑driven quantitative and data analytics work
-            </div>
-            <div class="info-item">
-              <span class="label">Focus:&nbsp;</span>Program & risk management, AI Expert Advisors, valuation, and analytics
-            </div>
+          <div class="info-item">
+            <span class="label">Focus:&nbsp;</span>Program & risk management, AI Expert Advisors, valuation, and analytics
           </div>
         </div>
       </div>
+    </div>
 
-      <div style="margin-top:32px;" class="grid-2">
-        <div class="card">
-          <h3>Research‑Led</h3>
-          <p>
-            INDUS treats research, backtesting, and stress testing as core activities, ensuring that any deployed system is backed by a clear path from hypothesis to implementation.
-          </p>
-        </div>
-        <div class="card">
-          <h3>Program‑First</h3>
-          <p>
-            Rather than focusing on individual models alone, the firm emphasizes programs and frameworks that integrate models, data, and human judgment into a coherent whole.
-          </p>
-        </div>
+    <div style="margin-top:32px;" class="grid-2">
+      <div class="card">
+        <h3>Research‑Led</h3>
+        <p>
+          INDUS treats research, backtesting, and stress testing as core activities, ensuring that any deployed system is backed by a clear path from hypothesis to implementation.
+        </p>
       </div>
-    </section>
-
-    <!-- CONTACT -->
-    <section id="contact" class="alt">
-      <h2 class="section-title">Contact & Principal Office</h2>
-      <p class="section-subtitle">
-        For collaboration, inquiries, or to learn more about how INDUS can support your risk and analytics vision, please reach out.
-      </p>
-
-      <div class="grid-2">
-        <div class="card">
-          <h3>Principal Office</h3>
-          <p>
-            INDUS Capital Research LLC<br />
-            30 N Gould St, Ste R<br />
-            Sheridan, WY 82801<br />
-            United States
-          </p>
-          <p style="margin-top:12px;">
-            For initial conversations, please contact us by email with a brief overview of your objectives and any relevant timelines or constraints.
-          </p>
-        </div>
-        <div class="card">
-          <h3>Contact Details</h3>
-          <p>
-            Email: <em>investor.indus@gmail.com</em> <br />
-            Web: <em>https://induscapitalresearch.github.io/website/</em> 
-          </p>
-          <p style="margin-top:10px; font-size:0.86rem; color:#6b7280;">
-            INDUS Capital Research LLC provides research and risk analytics services and does not represent investment, legal, or tax advice. Any strategies or models discussed should be evaluated in the context of your own risk policies and regulatory obligations.
-          </p>
-        </div>
+      <div class="card">
+        <h3>Program‑First</h3>
+        <p>
+          Rather than focusing on individual models alone, the firm emphasizes programs and frameworks that integrate models, data, and human judgment into a coherent whole.
+        </p>
       </div>
-    </section>
-  </main>
+    </div>
+  </section>
 
-  <footer>
-    <div>© <span id="year"></span> INDUS Capital Research LLC. All rights reserved.</div>
-  </footer>
+  <!-- CONTACT -->
+  <section id="contact" class="alt">
+    <h2 class="section-title">Contact & Principal Office</h2>
+    <p class="section-subtitle">
+      For collaboration, inquiries, or to learn more about how INDUS can support your risk and analytics vision, please reach out.
+    </p>
 
-  <script>
-    document.getElementById('year').textContent = new Date().getFullYear();
-  </script>
+    <div class="grid-2">
+      <div class="card">
+        <h3>Principal Office</h3>
+        <p>
+          INDUS Capital Research LLC<br />
+          30 N Gould St, Ste R<br />
+          Sheridan, WY 82801<br />
+          United States
+        </p>
+        <p style="margin-top:12px;">
+          For initial conversations, please contact us by email with a brief overview of your objectives and any relevant timelines or constraints.
+        </p>
+      </div>
+      <div class="card">
+        <h3>Contact Details</h3>
+        <p>
+          Email: <em>investor.indus@gmail.com</em> <br />
+          Web: <em>https://induscapitalresearch.github.io/website/</em> 
+        </p>
+        <p style="margin-top:10px; font-size:0.86rem; color:#6b7280;">
+          INDUS Capital Research LLC provides research and risk analytics services and does not represent investment, legal, or tax advice. Any strategies or models discussed should be evaluated in the context of your own risk policies and regulatory obligations.
+        </p>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div>© <span id="year"></span> INDUS Capital Research LLC. All rights reserved.</div>
+</footer>
+
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+</script>
 </body>
 </html>
