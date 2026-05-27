@@ -1,10 +1,9 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
   <title>INDUS Capital Research LLC</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="description" content="INDUS Capital Research LLC is a multiple member-managed LLC with 10+ years of quantitative research, AI-driven trade risk management, and data analytics experience." />
+  <meta name="description" content="INDUS Capital Research LLC is a multiple member-managed LLC with over 10 years of quantitative research, AI-driven trade risk management, and data analytics experience." />
   <style>
     :root {
       --primary: #0b1f33;
@@ -294,9 +293,9 @@
   <section id="home" class="hero">
     <div>
       <h2>Established Quantitative Research & Risk</h2>
-      <h1>10+ Years of AI‑Driven Capital & Risk Intelligence</h1>
+      <h1>AI‑Driven Capital & Risk Intelligence</h1>
       <p>
-        INDUS Capital Research LLC is a Wyoming‑formed, multiple member‑managed limited liability company with more than a decade of experience in quantitative research, program and risk management, and data analytics for trade risk management. [web:41][web:42][web:44][web:49]
+        INDUS Capital Research LLC is a Wyoming‑formed, multiple member‑managed limited liability company with more than a decade of experience in quantitative research, program and risk management, and data analytics for trade risk management.
       </p>
       <div class="tags">
         <span class="tag">Program &amp; Risk Management</span>
@@ -343,7 +342,7 @@
   <section id="services">
     <h2 class="section-title">Services & Capabilities</h2>
     <p class="section-subtitle">
-      INDUS designs and implements analytical programs, AI Expert Advisors, and data analytics frameworks tuned for real‑world trade and risk environments. [web:41][web:42][web:44][web:47]
+      INDUS designs and implements analytical programs, AI Expert Advisors, and data analytics frameworks tuned for real‑world trade and risk environments. 
     </p>
 
     <div class="services-grid">
@@ -375,7 +374,7 @@
           <li>Signal validation and robustness checks</li>
         </ul>
         <div class="service-tech">
-          Tech: Python ML stack (SciPy, scikit‑learn, related libraries). [web:41][web:42][web:44]
+          Tech: Python ML stack (SciPy, scikit‑learn, related libraries). 
         </div>
       </div>
 
@@ -422,7 +421,7 @@
           <li>Dashboards that highlight key drivers and anomalies</li>
         </ul>
         <div class="service-tech">
-          Tech: Python visualization libraries and analytics tooling. [web:41][web:44]
+          Tech: Python visualization libraries and analytics tooling. 
         </div>
       </div>
     </div>
@@ -432,16 +431,16 @@
   <section id="research" class="alt">
     <h2 class="section-title">Research Heritage</h2>
     <p class="section-subtitle">
-      INDUS builds on more than 10 years of work in quantitative modeling, supervised learning, and risk‑focused data analytics. [web:41][web:42][web:44][web:47]
+      INDUS builds on more than 10 years of work in quantitative modeling, supervised learning, and risk‑focused data analytics. 
     </p>
 
     <div class="grid-2">
       <div>
         <p>
-          Research begins with clear questions about decisions, risk, and signals. Data is organized, cleaned, and structured for supervised learning or analytical modeling workflows, ensuring that experiments rest on stable foundations. [web:42][web:44][web:47]
+          Research begins with clear questions about decisions, risk, and signals. Data is organized, cleaned, and structured for supervised learning or analytical modeling workflows, ensuring that experiments rest on stable foundations. 
         </p>
         <p style="margin-top:10px;">
-          Models are evaluated not only on raw performance metrics but also on robustness, interpretability, and behavior under stress scenarios, so research outputs can be responsibly embedded into real systems. [web:41][web:42][web:44]
+          Models are evaluated not only on raw performance metrics but also on robustness, interpretability, and behavior under stress scenarios, so research outputs can be responsibly embedded into real systems. 
         </p>
       </div>
       <div class="card">
@@ -460,7 +459,7 @@
       <div class="card">
         <h3>From Experiments to Programs</h3>
         <p>
-          Results are translated into documented rules, monitoring thresholds, and change‑management processes so that research artifacts become durable components within program and risk frameworks. [web:42][web:44]
+          Results are translated into documented rules, monitoring thresholds, and change‑management processes so that research artifacts become durable components within program and risk frameworks. 
         </p>
       </div>
       <div class="card">
@@ -476,7 +475,7 @@
   <section id="about">
     <h2 class="section-title">The Firm</h2>
     <p class="section-subtitle">
-      INDUS is structured as a multiple member‑managed limited liability company, combining technical, analytical, and operational perspectives in shared decision‑making. [web:49]
+      INDUS is structured as a multiple member‑managed limited liability company, combining technical, analytical, and operational perspectives in shared decision‑making. 
     </p>
 
     <div class="grid-2">
@@ -487,10 +486,10 @@
           <span class="pill-small">Program‑First Approach</span>
         </div>
         <p>
-          As a multi‑member LLC, INDUS brings together engineering, analytics, business, and operational experience within a single governance framework, rather than separating decision‑making from day‑to‑day work. [web:49]
+          As a multi‑member LLC, INDUS brings together engineering, analytics, business, and operational experience within a single governance framework, rather than separating decision‑making from day‑to‑day work. 
         </p>
         <p style="margin-top:10px;">
-          This structure supports continuity over time: programs, models, and analytics platforms are developed with long‑term stewardship in mind, not short‑term experiments.
+          This structure supports continuity over time: programs, models, and analytics platforms are developed with long‑term stewardship in mind, not short‑term experiments. 
         </p>
       </div>
       <div class="card">
