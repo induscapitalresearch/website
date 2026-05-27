@@ -8,10 +8,17 @@
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Syne:wght@500;600;700&display=swap" rel="stylesheet" />
   <style>
     :root {
-      --primary: #050816;
+      /* Dark canvas + teal accent for full dark theme */
+      --primary: #020617;
+      --primary-soft: #020617;
+      --section: #020617;
+      --card: #020617;
+      --card-elevated: #020617;
+      --border-subtle: rgba(148, 163, 184, 0.4);
       --accent: #00a3a3;
-      --light: #f5f7fb;
-      --text: #0b1020;
+      --accent-soft: rgba(0, 163, 163, 0.08);
+      --text: #e5e7eb;
+      --text-soft: #9ca3af;
     }
     * {
       box-sizing: border-box;
@@ -21,12 +28,12 @@
     body {
       font-family: "DM Sans", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
       color: var(--text);
-      background: #f3f4f6;
+      background: radial-gradient(circle at top left, #020617 0%, #020617 40%, #020617 100%);
       line-height: 1.7;
       -webkit-font-smoothing: antialiased;
     }
     header {
-      background: radial-gradient(circle at top left, #101827, #02040a);
+      background: radial-gradient(circle at top left, #020617, #020617);
       color: white;
       padding: 18px 7%;
       display: flex;
@@ -35,7 +42,9 @@
       position: sticky;
       top: 0;
       z-index: 20;
-      box-shadow: 0 14px 30px rgba(15, 23, 42, 0.35);
+      border-bottom: 1px solid rgba(30, 64, 175, 0.55);
+      backdrop-filter: blur(10px);
+      background-color: rgba(2, 6, 23, 0.94);
     }
     header .logo-text {
       font-family: "Syne", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
@@ -62,7 +71,7 @@
     }
 
     .hero {
-      background: radial-gradient(circle at top left, #050816 0%, #020412 45%, #00010a 100%);
+      background: radial-gradient(circle at top left, #020617 0%, #020617 45%, #020617 100%);
       color: white;
       padding: 96px 7% 88px;
       display: grid;
@@ -88,7 +97,7 @@
     }
     .hero p {
       max-width: 640px;
-      color: #d2ddff;
+      color: #cbd5ff;
       margin-bottom: 20px;
       font-size: 0.98rem;
       font-weight: 400;
@@ -101,13 +110,13 @@
     }
     .hero .tag {
       border-radius: 999px;
-      border: 1px solid rgba(226, 232, 255, 0.3);
+      border: 1px solid rgba(148, 163, 255, 0.5);
       padding: 6px 12px;
       font-size: 0.75rem;
       text-transform: uppercase;
       letter-spacing: 0.18em;
-      color: #e6f6ff;
-      background: rgba(15, 23, 42, 0.45);
+      color: #e5edff;
+      background: rgba(15, 23, 42, 0.9);
     }
     .btn-primary {
       background: var(--accent);
@@ -122,20 +131,20 @@
       display: inline-block;
       letter-spacing: 0.12em;
       text-transform: uppercase;
-      box-shadow: 0 10px 24px rgba(0, 163, 163, 0.45);
+      box-shadow: 0 10px 32px rgba(0, 163, 163, 0.55);
     }
     .btn-primary:hover {
-      opacity: 0.95;
+      opacity: 0.96;
       transform: translateY(-1px);
     }
     .hero-card {
-      background: rgba(4, 8, 26, 0.96);
+      background: radial-gradient(circle at top left, #020617, #020617);
       border-radius: 18px;
-      border: 1px solid rgba(125, 179, 255, 0.35);
+      border: 1px solid rgba(129, 140, 248, 0.55);
       padding: 22px 24px;
-      color: #d7e2ff;
-      box-shadow: 0 22px 50px rgba(0, 0, 0, 0.7);
-      backdrop-filter: blur(4px);
+      color: #e5edff;
+      box-shadow: 0 22px 60px rgba(15, 23, 42, 0.9);
+      backdrop-filter: blur(14px);
     }
     .hero-card h3 {
       font-size: 0.8rem;
@@ -154,12 +163,12 @@
       font-family: "DM Sans", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
     }
     .hero-card .metric-label {
-      color: #91a4ff;
+      color: #98a8ff;
       font-weight: 400;
     }
     .hero-card .metric-value {
       font-weight: 600;
-      color: #e5ecff;
+      color: #f1f5ff;
     }
     .hero-card .pill {
       display: inline-block;
@@ -168,9 +177,9 @@
       padding: 4px 10px;
       font-size: 0.72rem;
       border-radius: 999px;
-      border: 1px solid rgba(159, 180, 255, 0.7);
-      color: #e3ecff;
-      background: rgba(15, 23, 42, 0.5);
+      border: 1px solid rgba(129, 140, 248, 0.7);
+      color: #e5edff;
+      background: rgba(15, 23, 42, 0.9);
       letter-spacing: 0.16em;
       text-transform: uppercase;
       font-family: "DM Sans", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
@@ -178,10 +187,10 @@
 
     section {
       padding: 80px 7%;
-      background: #f3f4f6;
+      background: #020617;
     }
     section.alt {
-      background: var(--light);
+      background: #020617;
     }
     h2.section-title {
       font-family: "Syne", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
@@ -190,10 +199,10 @@
       letter-spacing: 0.14em;
       text-transform: uppercase;
       font-weight: 600;
-      color: #050816;
+      color: #e5e7eb;
     }
     .section-subtitle {
-      color: #64748b;
+      color: var(--text-soft);
       margin-bottom: 32px;
       font-size: 0.96rem;
       max-width: 720px;
@@ -213,23 +222,23 @@
     }
 
     .card {
-      background: #ffffff;
+      background: radial-gradient(circle at top left, #020617, #020617);
       border-radius: 16px;
       padding: 22px 24px;
-      box-shadow: 0 12px 28px rgba(15, 23, 42, 0.08);
-      border: 1px solid rgba(148, 163, 184, 0.3);
+      box-shadow: 0 18px 40px rgba(15, 23, 42, 0.9);
+      border: 1px solid var(--border-subtle);
     }
     .card h3 {
       font-size: 1rem;
       margin-bottom: 6px;
       font-weight: 600;
-      color: #0f172a;
+      color: #e5e7eb;
       letter-spacing: 0.04em;
       font-family: "Syne", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
     }
     .card p {
       font-size: 0.94rem;
-      color: #4b5563;
+      color: var(--text-soft);
       font-weight: 400;
       font-family: "DM Sans", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
     }
@@ -239,21 +248,21 @@
       font-size: 0.72rem;
       text-transform: uppercase;
       letter-spacing: 0.2em;
-      color: #0b1f33;
+      color: #a5b4fc;
       margin-bottom: 6px;
       font-weight: 500;
       font-family: "DM Sans", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
     }
     .service-tech {
       font-size: 0.8rem;
-      color: #6b7280;
+      color: #9ca3af;
       margin-top: 8px;
       font-style: italic;
     }
     ul {
       margin: 8px 0 0 18px;
       font-size: 0.9rem;
-      color: #4b5563;
+      color: var(--text-soft);
       font-family: "DM Sans", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
     }
 
@@ -267,9 +276,9 @@
       font-size: 0.74rem;
       padding: 4px 10px;
       border-radius: 999px;
-      background: rgba(15, 118, 110, 0.06);
-      color: #0b1f33;
-      border: 1px solid rgba(148, 163, 184, 0.4);
+      background: rgba(15, 118, 110, 0.12);
+      color: #e5e7eb;
+      border: 1px solid rgba(148, 163, 184, 0.5);
       letter-spacing: 0.16em;
       text-transform: uppercase;
       font-family: "DM Sans", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
@@ -279,21 +288,21 @@
       flex-wrap: wrap;
       gap: 20px;
       font-size: 0.88rem;
-      color: #4b5563;
+      color: var(--text-soft);
     }
     .info-item span.label {
       font-weight: 600;
-      color: #020617;
+      color: #e5e7eb;
       font-family: "DM Sans", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
     }
 
     footer {
       background: #020617;
-      color: #94a3b8;
+      color: #9ca3af;
       padding: 22px 7% 26px;
       font-size: 0.82rem;
       margin-top: 40px;
-      border-top: 1px solid rgba(148, 163, 184, 0.35);
+      border-top: 1px solid rgba(30, 64, 175, 0.75);
     }
     footer a {
       color: #e5e7eb;
@@ -608,7 +617,7 @@
           Email: <em>investor.indus@gmail.com</em> <br />
           Web: <em>https://induscapitalresearch.github.io/website/</em> 
         </p>
-        <p style="margin-top:10px; font-size:0.86rem; color:#6b7280;">
+        <p style="margin-top:10px; font-size:0.86rem; color:#9ca3af;">
           INDUS Capital Research LLC provides research and risk analytics services and does not represent investment, legal, or tax advice. Any strategies or models discussed should be evaluated in the context of your own risk policies and regulatory obligations.
         </p>
       </div>
