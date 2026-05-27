@@ -358,7 +358,7 @@
           <li>Governance and monitoring frameworks</li>
         </ul>
         <div class="service-tech">
-          Tech: Python, automation frameworks, event‑driven architectures. [web:41][web:44]
+          Tech: Python, automation frameworks, event‑driven architectures. 
         </div>
       </div>
 
@@ -390,7 +390,7 @@
           <li>Custom valuation model development</li>
         </ul>
         <div class="service-tech">
-          Tech: Python, Perl, historical and synthetic data engines. [web:41][web:44]
+          Tech: Python, Perl, historical and synthetic data engines. 
         </div>
       </div>
     </div>
@@ -504,15 +504,6 @@
           <div class="info-item">
             <span class="label">Focus:&nbsp;</span>Program & risk management, AI Expert Advisors, valuation, and analytics
           </div>
-          <div class="info-item">
-            <span class="label">Market:&nbsp;</span>Primary focus on the United States
-          </div>
-          <div class="info-item">
-            <span class="label">Suppliers/Vendors:&nbsp;</span>None currently
-          </div>
-          <div class="info-item">
-            <span class="label">Employees:&nbsp;</span>No employees initially; member‑managed structure
-          </div>
         </div>
       </div>
     </div>
@@ -556,8 +547,8 @@
       <div class="card">
         <h3>Contact Details</h3>
         <p>
-          Email: <em>info@induscapitalresearch.com</em> (example placeholder)<br />
-          Web: <em>www.induscapitalresearch.com</em> (example placeholder)
+          Email: <em>investor.indus@gmail.com</em> <br />
+          Web: <em>(https://induscapitalresearch.github.io/website/)</em> 
         </p>
         <p style="margin-top:10px; font-size:0.86rem; color:#6b7280;">
           INDUS Capital Research LLC provides research and risk analytics services and does not represent investment, legal, or tax advice. Any strategies or models discussed should be evaluated in the context of your own risk policies and regulatory obligations.
