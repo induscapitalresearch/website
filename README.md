@@ -52,6 +52,7 @@
       font-weight: 500;
       letter-spacing: 0.12em;
       text-transform: uppercase;
+      font-family: "DM Sans", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
     }
     header nav a:hover {
       color: var(--accent);
@@ -145,7 +146,6 @@
       font-weight: 500;
       font-family: "DM Sans", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
     }
-    /* Core focus area metrics now DM Sans (no monospace) */
     .hero-card .metric-row {
       display: flex;
       justify-content: space-between;
